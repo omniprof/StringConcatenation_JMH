@@ -1,0 +1,19 @@
+package com.kenfogel;
+
+public class MyPlainBenchmark {
+    public String stringConcat() {
+        String result = "";
+        for (int i = 0; i < 1000; i++) {
+            result += String.valueOf(i);
+        }
+        return result;
+    }
+
+    public String stringBuilderConcat() {
+        StringBuilder result = new StringBuilder();
+        for (int i = 0; i < 1000; i++) {
+            result.append(i);
+        }
+        return result.toString();
+    }
+}
