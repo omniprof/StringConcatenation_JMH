@@ -1,0 +1,175 @@
+C:\JavaZone\JMH_Concatenation>java -jar target\benchmarks.jar
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 5 s each
+# Measurement: 5 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.MyBenchmark.stringBuilderConcat
+
+# Run progress: 0.00% complete, ETA 00:08:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 15098.593 ns/op
+# Warmup Iteration   2: 14142.345 ns/op
+# Warmup Iteration   3: 15296.292 ns/op
+# Warmup Iteration   4: 13823.369 ns/op
+# Warmup Iteration   5: 14936.761 ns/op
+Iteration   1: 13706.296 ns/op
+Iteration   2: 14834.161 ns/op
+Iteration   3: 14379.216 ns/op
+Iteration   4: 15276.096 ns/op
+Iteration   5: 14191.106 ns/op
+
+# Run progress: 10.00% complete, ETA 00:07:36
+# Fork: 2 of 5
+# Warmup Iteration   1: 15622.194 ns/op
+# Warmup Iteration   2: 14688.231 ns/op
+# Warmup Iteration   3: 15018.742 ns/op
+# Warmup Iteration   4: 14967.465 ns/op
+# Warmup Iteration   5: 14856.005 ns/op
+Iteration   1: 13993.297 ns/op
+Iteration   2: 13934.528 ns/op
+Iteration   3: 14547.600 ns/op
+Iteration   4: 14188.644 ns/op
+Iteration   5: 14998.221 ns/op
+
+# Run progress: 20.00% complete, ETA 00:06:45
+# Fork: 3 of 5
+# Warmup Iteration   1: 14639.242 ns/op
+# Warmup Iteration   2: 17235.656 ns/op
+# Warmup Iteration   3: 14441.711 ns/op
+# Warmup Iteration   4: 15359.995 ns/op
+# Warmup Iteration   5: 13653.121 ns/op
+Iteration   1: 14073.180 ns/op
+Iteration   2: 13656.950 ns/op
+Iteration   3: 13829.071 ns/op
+Iteration   4: 13331.095 ns/op
+Iteration   5: 14257.713 ns/op
+
+# Run progress: 30.00% complete, ETA 00:05:54
+# Fork: 4 of 5
+# Warmup Iteration   1: 13719.076 ns/op
+# Warmup Iteration   2: 15036.735 ns/op
+# Warmup Iteration   3: 13593.905 ns/op
+# Warmup Iteration   4: 14893.320 ns/op
+# Warmup Iteration   5: 13880.206 ns/op
+Iteration   1: 14671.380 ns/op
+Iteration   2: 13732.641 ns/op
+Iteration   3: 15300.286 ns/op
+Iteration   4: 14268.013 ns/op
+Iteration   5: 13868.958 ns/op
+
+# Run progress: 40.00% complete, ETA 00:05:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 14456.234 ns/op
+# Warmup Iteration   2: 14026.935 ns/op
+# Warmup Iteration   3: 15056.189 ns/op
+# Warmup Iteration   4: 13714.508 ns/op
+# Warmup Iteration   5: 14700.497 ns/op
+Iteration   1: 13613.371 ns/op
+Iteration   2: 14760.777 ns/op
+Iteration   3: 15062.994 ns/op
+Iteration   4: 15580.475 ns/op
+Iteration   5: 14319.552 ns/op
+
+
+Result "com.kenfogel.MyBenchmark.stringBuilderConcat":
+  14335.025 ±(99.9%) 447.031 ns/op [Average]
+  (min, avg, max) = (13331.095, 14335.025, 15580.475), stdev = 596.774
+  CI (99.9%): [13887.994, 14782.056] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.4, OpenJDK 64-Bit Server VM, 21.0.4+7-LTS
+# VM invoker: C:\Program Files\Eclipse Adoptium\jdk-21.0.4.7-hotspot\bin\java.exe
+# VM options: <none>
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 5 s each
+# Measurement: 5 iterations, 5 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.kenfogel.MyBenchmark.stringConcat
+
+# Run progress: 50.00% complete, ETA 00:04:13
+# Fork: 1 of 5
+# Warmup Iteration   1: 224055.196 ns/op
+# Warmup Iteration   2: 212661.758 ns/op
+# Warmup Iteration   3: 221673.455 ns/op
+# Warmup Iteration   4: 211847.245 ns/op
+# Warmup Iteration   5: 216674.669 ns/op
+Iteration   1: 214219.764 ns/op
+Iteration   2: 219789.120 ns/op
+Iteration   3: 219705.429 ns/op
+Iteration   4: 217997.806 ns/op
+Iteration   5: 217005.293 ns/op
+
+# Run progress: 60.00% complete, ETA 00:03:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 225150.213 ns/op
+# Warmup Iteration   2: 216122.209 ns/op
+# Warmup Iteration   3: 218518.176 ns/op
+# Warmup Iteration   4: 213246.605 ns/op
+# Warmup Iteration   5: 212802.862 ns/op
+Iteration   1: 223673.273 ns/op
+Iteration   2: 215113.347 ns/op
+Iteration   3: 226814.297 ns/op
+Iteration   4: 215968.715 ns/op
+Iteration   5: 218738.463 ns/op
+
+# Run progress: 70.00% complete, ETA 00:02:32
+# Fork: 3 of 5
+# Warmup Iteration   1: 222557.086 ns/op
+# Warmup Iteration   2: 220856.725 ns/op
+# Warmup Iteration   3: 211988.125 ns/op
+# Warmup Iteration   4: 215109.613 ns/op
+# Warmup Iteration   5: 211635.580 ns/op
+Iteration   1: 218663.039 ns/op
+Iteration   2: 215988.835 ns/op
+Iteration   3: 221958.140 ns/op
+Iteration   4: 217320.857 ns/op
+Iteration   5: 219054.902 ns/op
+
+# Run progress: 80.00% complete, ETA 00:01:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 217580.323 ns/op
+# Warmup Iteration   2: 216123.279 ns/op
+# Warmup Iteration   3: 213320.275 ns/op
+# Warmup Iteration   4: 211852.907 ns/op
+# Warmup Iteration   5: 213306.537 ns/op
+Iteration   1: 219846.619 ns/op
+Iteration   2: 215834.427 ns/op
+Iteration   3: 218377.630 ns/op
+Iteration   4: 217300.563 ns/op
+Iteration   5: 211777.882 ns/op
+
+# Run progress: 90.00% complete, ETA 00:00:50
+# Fork: 5 of 5
+# Warmup Iteration   1: 227531.330 ns/op
+# Warmup Iteration   2: 211890.042 ns/op
+# Warmup Iteration   3: 216649.344 ns/op
+# Warmup Iteration   4: 218383.162 ns/op
+# Warmup Iteration   5: 216828.527 ns/op
+Iteration   1: 214860.883 ns/op
+Iteration   2: 224601.318 ns/op
+Iteration   3: 214083.880 ns/op
+Iteration   4: 220556.306 ns/op
+Iteration   5: 216315.819 ns/op
+
+Result "com.kenfogel.MyBenchmark.stringConcat":
+  218222.664 ±(99.9%) 2605.417 ns/op [Average]
+  (min, avg, max) = (211777.882, 218222.664, 226814.297), stdev = 3478.157
+  CI (99.9%): [215617.247, 220828.081] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:08:27
+
+Benchmark                        Mode  Cnt       Score      Error  Units
+MyBenchmark.stringBuilderConcat  avgt   25   14335.025 ±  447.031  ns/op
+MyBenchmark.stringConcat         avgt   25  218222.664 ± 2605.417  ns/op
+
+C:\JavaZone\JMH_Concatenation>
